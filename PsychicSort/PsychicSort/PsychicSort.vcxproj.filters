@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\PsychicSort">
+      <UniqueIdentifier>{0c30e1a7-0ce5-4f83-a601-869c2e57f562}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\OtherSort">
+      <UniqueIdentifier>{e4ee140d-d32b-4110-a657-e75178bd8b41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\OtherSort\Implementations">
+      <UniqueIdentifier>{260d442a-de10-48b8-8206-2ff8e4543790}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MainSort">
+      <UniqueIdentifier>{2bbaa7e9-4368-4b36-9e72-6a507b7989b3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HashSort.cpp">
+      <Filter>Source Files\MainSort</Filter>
+    </ClCompile>
+    <ClCompile Include="HashMap.cpp">
+      <Filter>Source Files\MainSort</Filter>
+    </ClCompile>
+    <ClCompile Include="PsychicSort.cpp">
+      <Filter>Source Files\PsychicSort</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseSort.cpp">
+      <Filter>Source Files\OtherSort\Implementations</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="HashSort.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PsychicSort.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseSort.h">
+      <Filter>Source Files\OtherSort\Implementations</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
